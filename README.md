@@ -25,7 +25,7 @@ sudo DOCKER_BUILDKIT=0 docker-compose up -d --build
 
 ### 4. Viewing the Live Website
 1. Ensure your server's firewall (AWS EC2 Security Group) has an Inbound Rule allowing **Custom TCP** traffic on Port `8080` from source `0.0.0.0/0`.
-2. Open your web browser and visit `http://YOUR-SERVER-IP:8080`.
+2. Open your web browser and visit `http://34.229.163.17 :8080`.
 
 ## Architecture Enhancements
 - **Dynamic Database Credentials**: `db_connect.php` seamlessly routes environment variables from Docker, but safely cascades to static InfinityFree credentials if the variables are absent.
